@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>gsb_cloture</name>
+    </assembly>
+    <members>
+        <member name="T:gsb_cloture.Connexion">
+            <summary>
+            The main Connection Class.
+            Permit the connection with an SQL base and send requests.
+            </summary>
+        </member>
+        <member name="M:gsb_cloture.Connexion.Connect">
+            <summary>
+            Instanciate the connection to database
+            </summary>
+        </member>
+        <member name="M:gsb_cloture.Connexion.GetValueFromRequest(System.String)">
+            <summary>
+            Get a value from the request if you want to show values
+            </summary>
+        </member>
+        <member name="M:gsb_cloture.Connexion.SendRequest(System.String)">
+            <summary>
+            Just send a request to the database.
+            </summary>
+        </member>
+        <member name="M:gsb_cloture.Connexion.Close">
+            <summary>
+            Close connection.
+            </summary>
+        </member>
+    </members>
+</doc>
